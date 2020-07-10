@@ -1,0 +1,107 @@
+    body {
+        font-family: 'source Sans Pro', sans-serif;
+        margin: 0px;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Fjalla One', sans-serif;
+        font-weight: normal;
+    }
+    
+    h1 {
+        font-size: 40px;
+        line-height: 1.5em;
+        letter-spacing: -.2px;
+        color: white;
+        /* \* text-transform: uppercase;
+text-decoration: double;
+*\ */
+    }
+    
+    h1 strong {
+        color: #026fff;
+    }
+    
+    .hero {
+        background-image: url("http://dineroclub.net/wp-content/uploads/2019/11/DEVELOPER3.jpg");
+        height: 300px;
+        background-size: 500px 300px;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-color: #1b2127;
+    }
+    
+    .project {
+        border: 1px solid gray;
+        border-radius: 10px;
+        margin: 10px;
+        margin-bottom: 15px;
+        padding: 20px;
+        background: white;
+    }
+    
+    .portafolio {
+        background: #fafafa;
+    }
+    
+    .project-details {
+        width: 500px;
+    }
+    
+    .project-imageContainer {
+        width: 500px;
+    }
+    
+    .header {
+        background-color: #1b2127;
+        color: white;
+    }
+    
+    .header a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .flexbox {
+        display: flex;
+        /* flex-direction: column; */
+        /* permite que los elementos caigan en responsive */
+        flex-wrap: wrap;
+        /*con el justify-content no lleva maargen para espaciado igual entre los elementos*/
+        /* CSS for example: nine box con direccion en fila*/
+        /* flex-direction: row; */
+        /* ALINEADO HORIZONTAL */
+        /* justify-content: space-evenly; */
+        /*permite compartir margenes collapse en nuestros eventos igual espacio entre componentes */
+        /* justify-content: space-around; */
+        /*no tiene margin collapse y lo denota en los finaesigual espacio entre componentes */
+        /* ALINEADO VERTICAL */
+        /* height: 200px;
+        align-items: center;
+        border: 1px solid blue; */
+        /* CSS for example: three box con direccion en columna*/
+        /* flex-direction: column; */
+        /* ALINEADO HORIZONTAL */
+        justify-content: center;
+        /*no tiene margin collapse y lo denota en los finaesigual espacio entre componentes */
+        /* ALINEADO VERTICAL */
+        height: 300px;
+        align-items: center;
+        border: 1px solid blue;
+    }
+    
+    .box {
+        width: 50px;
+        height: 50px;
+        border: 1px solid green;
+        /* para no alterar tamaños por el flex padre */
+        margin: 20px;
+        flex-shrink: 0;
+        /* Alinear en posicion diferente cada hijo */
+        /* align-self: flex-start; */
+    }
